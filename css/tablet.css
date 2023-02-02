@@ -10,6 +10,9 @@
     gap: 40px;
   }
 
+  .header {
+  }
+
   .header-item {
     display: block;
   }
@@ -149,5 +152,20 @@
   /*--------------------------------------------FOOTER----------------------------------------*/
   .footer > .container {
     width: 502px;
+  }
+
+  .container-footer {
+  }
+
+  .footer-social-media {
+  }
+  .backdrop > .container {
+    width: 408px;
+    height: 586px;
+  }
+
+  .modal-subscribe-section {
+    display: flex;
+    justify-content: flex-start;
   }
 }

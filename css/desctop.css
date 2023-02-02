@@ -78,6 +78,7 @@
   }
   /*-----------------------------------------BANER----------------------------------------------*/
   .slogan {
+ 
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
@@ -103,7 +104,7 @@
   }
 
   .slogan-banner {
-    max-width: 496px;
+
     font-size: 56px;
     line-height: 1;
   }
@@ -197,10 +198,20 @@
   .footer > .container {
     width: 1200px;
   }
-  .footer-styles {
-    margin-right: 120px;
-    max-width: 264px;
-    min-height: 110px;
-    width: 264px;
+
+  .container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+  }
+  .modal-subscribe-section {
+    display: flex-box;
+    max-width: 453px;
+    min-height: 80px;
+    margin-left: 80px;
+  }
+
+  .footer-form {
+    display: flex;
   }
 }
