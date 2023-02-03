@@ -270,5 +270,27 @@
     margin-right: 0;
     text-align: left;
   }
-  
+
+  /* --------------------------PORTFOLIO--------------------------------- */
+  /* .portfolio-cards >.container {
+  width: 100%;
+} */
+
+  .portfolio-images-list {
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio-images {
+    gap: 24px;
+  }
+
+  .potrfolio-button-list {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
 }

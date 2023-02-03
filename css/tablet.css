@@ -208,4 +208,27 @@
   .footer-modal-input {
     margin-left: 0 auto;
   }
+
+  /* --------------------------PORTFOLIO--------------------------------- */
+
+  .portfolio-images-list {
+    width: calc((100% - 56px) / 2);
+  }
+
+  .portfolio-images {
+    gap: 24px;
+  }
+
+  .potrfolio-button-list {
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.portfolio {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
 }
