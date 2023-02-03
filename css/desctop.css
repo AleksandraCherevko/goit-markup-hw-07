@@ -78,7 +78,6 @@
   }
   /*-----------------------------------------BANER----------------------------------------------*/
   .slogan {
- 
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
@@ -104,7 +103,7 @@
   }
 
   .slogan-banner {
-
+    max-width: 496px;
     font-size: 56px;
     line-height: 1;
   }
@@ -198,20 +197,78 @@
   .footer > .container {
     width: 1200px;
   }
+  .footer-styles {
+    margin-right: 120px;
+    max-width: 264px;
+    min-height: 110px;
+    width: 264px;
+  }
 
+  .footer-social-media-title {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   .container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-styles {
+    margin-right: 120px;
+    max-width: 264px;
+    min-height: 110px;
+    width: 264px;
+    /* margin-left: auto;
+  margin-right: auto;
+  justify-content: center; */
+  }
+  /* .footer-form {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+  .footer-modal-input {
+    margin-right: 24px;
+    width: 264px;
+  }
+
+  .modal-subscribe-section {
+    margin-left: 80px;
+  } */
+
+  .wrap {
     display: flex;
   }
-  .modal-subscribe-section {
-    display: flex-box;
-    max-width: 453px;
-    min-height: 80px;
-    margin-left: 80px;
+  .footer-social-media-title {
+    margin: 0;
   }
 
   .footer-form {
     display: flex;
+    flex-wrap: nowrap;
   }
+
+  .footer-modal-button {
+    margin-top: 0;
+    margin-left: 24px;
+  }
+  .footer-modal-input {
+    margin-left: 0 auto;
+  }
+
+  .modal-subscribe-section {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+  
 }
