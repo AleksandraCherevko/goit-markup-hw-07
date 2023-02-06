@@ -1,10 +1,12 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
-    width: 798px;
+    width: 768px;
   }
 
   /*----------------------------------------HEADER----------------------------------------------*/
-
+.header >.container {
+  width: 768px;
+}
   .header-list {
     display: flex;
     gap: 40px;
@@ -40,7 +42,6 @@
     left: 0;
     bottom: -1px;
     border-radius: 2px;
-    bottom: -1px;
   }
 
   .header-contacts-list {

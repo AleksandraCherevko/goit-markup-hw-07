@@ -3,7 +3,9 @@
     width: 1158px;
   }
   /*----------------------------------------HEADER----------------------------------------------*/
-
+  .header > .container {
+    width: 1158px;
+  }
   .header-list {
     display: flex;
     gap: 40px;
@@ -27,6 +29,7 @@
   /*-----HEADER CONTACTS--------*/
   .header-contacts-list {
     display: block;
+
   }
 
   .header-link:hover,
@@ -46,6 +49,7 @@
     border-radius: 2px;
     bottom: -1px;
   }
+
   .header-contacts {
     display: flex;
     gap: 40px;
@@ -77,6 +81,11 @@
     display: none;
   }
   /*-----------------------------------------BANER----------------------------------------------*/
+  .slogan > .container {
+    width: 768px;
+    min-width: 100%;
+  }
+
   .slogan {
     padding-top: 188px;
     padding-bottom: 188px;

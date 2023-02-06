@@ -1,7 +1,6 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .container {
-    width: 458px;
+    min-width: 458px;
+  
   }
-
-
 }
