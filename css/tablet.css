@@ -46,9 +46,7 @@
   .header-contacts-list {
     display: flex;
   }
-  .header-email {
-    padding-top: 24px;
-  }
+
   .header-email,
   .header-telephon {
     font-size: 12px;
@@ -70,7 +68,7 @@
 
   /* HAMBURGER */
 
-  .menu-open-icon {
+  .menu-open {
     display: none;
   }
 
@@ -112,16 +110,32 @@
     margin-top: 48px;
   }
   /*-----------------------------------SKILLS---------------------------------------------------*/
+  .skills > .container {
+    width: 768px;
+    min-width: 100%;
+  }
 
   .skills-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .skills-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
   }
+
+  .skills-after-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .skills-description {
+    font-weight: 500;
+  }
+
   /*--------------------------OUR TEAM CARDS----------------------------------*/
 
   .team > .container {
@@ -133,7 +147,7 @@
   }
 
   .team-members-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   /*--------------------------------------------CUSTOMERS----------------------------------------*/
@@ -143,9 +157,12 @@
 
   .customers-item {
     width: calc((100% - 48px) / 3);
+    /* height: 88px; */
+  }
+  .customers-link {
+    width: 168px;
     height: 88px;
   }
-
   /*--------------------------------------------FOOTER----------------------------------------*/
   .footer > .container {
     width: 528px;
@@ -185,6 +202,8 @@
 
   .footer-social-media-title {
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .footer-text {
@@ -220,15 +239,14 @@
   }
 
   .potrfolio-button-list {
-  margin-bottom: 64px;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 
-.portfolio {
-  padding-top: 64px;
-  padding-bottom: 96px;
-}
-
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
 }

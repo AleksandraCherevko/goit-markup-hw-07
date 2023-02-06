@@ -1,8 +1,7 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
-.container {
+  .container {
     width: 458px;
-}
+  }
 
 
 }
-

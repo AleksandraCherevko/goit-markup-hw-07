@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1440px;
+    width: 1158px;
   }
   /*----------------------------------------HEADER----------------------------------------------*/
 
@@ -41,10 +41,10 @@
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     left: 0;
     border-radius: 2px;
-    bottom: 1px;
+    bottom: -1px;
   }
   .header-contacts {
     display: flex;
@@ -69,7 +69,7 @@
   }
 
   /* HAMBURGER */
-  .menu-open-icon {
+  .menu-open {
     display: none;
   }
 
@@ -124,7 +124,7 @@
   }
   .skills-item-icons {
     margin-bottom: 8px;
-    width: 264px;
+    /* width: 264px; */
     height: 112px;
     background-color: #f4f4fd;
     display: flex;
@@ -137,7 +137,13 @@
     flex-wrap: wrap;
     gap: 24px;
   }
+  .skills-description {
+    font-weight: 400;
+  }
   /*---------------------------------CARDS WHAT ARE WE DOING-----------------------------------*/
+  .works > .container {
+    width: 1158px;
+  }
 
   .works-hidden {
     display: block;
@@ -146,7 +152,10 @@
   .works {
     display: block;
     padding-bottom: 120px;
-    width: 100%;
+    /* width: 100%; */
+  }
+  .works-images {
+    display: block;
   }
   .works-list {
     margin-top: 72px;
@@ -161,7 +170,7 @@
 
   /*--------------------------OUR TEAM CARDS----------------------------------*/
   .team > .container {
-    width: 1200px;
+    width: 1158px;
   }
 
   .team {
@@ -193,6 +202,10 @@
     height: 88px;
   }
 
+  .customers-link {
+    width: 168px;
+    height: 88px;
+  }
   /*--------------------------------------------FOOTER----------------------------------------*/
   .footer > .container {
     width: 1200px;
@@ -204,10 +217,14 @@
     width: 264px;
   }
 
+  .footer-social-media {
+    margin-right: 80px;
+  }
+
   .footer-social-media-title {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .backdrop {
@@ -231,15 +248,15 @@
   margin-right: auto;
   justify-content: center; */
   }
-  /* .footer-form {
+  /* /* .footer-form {
     display: inline-flex;
     flex-wrap: nowrap;
   }
   .footer-modal-input {
     margin-right: 24px;
     width: 264px;
-  }
-
+  } */
+  /* 
   .modal-subscribe-section {
     margin-left: 80px;
   } */
@@ -258,23 +275,31 @@
 
   .footer-modal-button {
     margin-top: 0;
-    margin-left: 24px;
+    /* margin-left: 24px; */
   }
   .footer-modal-input {
-    margin-left: 0 auto;
+    /* margin-left: 0 auto; */
+    width: 264px;
   }
 
   .modal-subscribe-section {
     display: inline;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
     text-align: left;
   }
-
+  .modal-subscribe {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .footer-modal-button {
+    margin-left: 24px;
+  }
   /* --------------------------PORTFOLIO--------------------------------- */
-  /* .portfolio-cards >.container {
-  width: 100%;
-} */
+  .portfolio-cards > .container {
+    width: 1158px;
+  }
 
   .portfolio-images-list {
     width: calc((100% - 48px) / 3);
@@ -284,11 +309,12 @@
   }
 
   .potrfolio-button-list {
-    margin-bottom: 48px;
+    margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
   }
+
   .portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
