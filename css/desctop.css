@@ -29,7 +29,6 @@
   /*-----HEADER CONTACTS--------*/
   .header-contacts-list {
     display: block;
-
   }
 
   .header-link:hover,
@@ -199,6 +198,8 @@
   .customers {
     padding-top: 130px;
     padding-bottom: 120px;
+
+    
   }
 
   .customers-list {
@@ -218,6 +219,10 @@
   /*--------------------------------------------FOOTER----------------------------------------*/
   .footer > .container {
     width: 1200px;
+  }
+
+  .footer {
+    padding-left: 156px;
   }
   .footer-styles {
     margin-right: 120px;
