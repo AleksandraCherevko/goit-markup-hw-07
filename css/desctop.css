@@ -14,8 +14,8 @@
     display: block;
   }
   .header-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     display: block;
     font-weight: 600;
     color: var(--text-color);
@@ -56,8 +56,6 @@
 
   .header-email,
   .header-telephon {
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -69,6 +67,10 @@
   .header-telephon:hover,
   .header-telephon:focus {
     color: var(--accent-color);
+  }
+
+  .header-logo {
+    padding: 0 auto;
   }
 
   /* HAMBURGER */
@@ -198,8 +200,6 @@
   .customers {
     padding-top: 130px;
     padding-bottom: 120px;
-
-    
   }
 
   .customers-list {
