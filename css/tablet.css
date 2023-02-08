@@ -4,6 +4,11 @@
   }
 
   /*----------------------------------------HEADER----------------------------------------------*/
+  .modal > .container {
+    max-width: 768px;
+    width: 100%;
+  }
+
   .header > .container {
     width: 768px;
   }
@@ -48,6 +53,9 @@
     display: flex;
   }
 
+  .header-contacts-list:not(:first-child) {
+    margin-top: 4px;
+  }
   .header-email,
   .header-telephon {
     font-size: 12px;
@@ -112,9 +120,13 @@
   }
   /*-----------------------------------SKILLS---------------------------------------------------*/
   .skills > .container {
-    width: 768px;
-    min-width: 100%;
+    max-width: 768px;
+    width: 100%;
   }
+
+  /* .skills-list {
+    flex-basis: calc((100% - 24px) / 2);
+  } */
 
   .skills-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -122,10 +134,13 @@
 
   .skills-list {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
+    /* flex-basis: calc((100% - 24px) / 2); */
   }
 
   .skills-after-title {
+    text-align: start;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -150,26 +165,35 @@
   .team-members-item {
     flex-basis: calc((100% - 24px) / 2);
   }
-
+  .team-members-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
   /*--------------------------------------------CUSTOMERS----------------------------------------*/
   .customers > .container {
-    width: 558px;
+    max-width: 558px;
+    width: 100%;
   }
 
-  .customers {
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .customers-item {
-    width: calc((100% - 48px) / 3);
-    /* height: 88px; */
-  }
-  .customers-link {
+    flex-basis: calc((100% - 48px) / 3);
     width: 168px;
     height: 88px;
   }
+  .customers-link {
+    width: 100%;
+    height: 100%;
+  }
+
   /*--------------------------------------------FOOTER----------------------------------------*/
   .footer > .container {
-    width: 528px;
+    max-width: 528px;
+    width: 100%;
   }
 
   .backdrop > .container {
@@ -178,6 +202,7 @@
 
   .container-footer {
     display: flex;
+    flex-direction: column;
   }
 
   .footer-styles {
@@ -216,22 +241,25 @@
     height: 72px;
   }
   .modal-subscribe {
-    margin-left: 0 auto;
+    text-align: start;
+    margin-bottom: 16px;
   }
+
   .modal-subscribe-section {
-    display: inline;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
-    margin-right: 0;
-    text-align: left;
   }
 
   .footer-modal-button {
     margin-top: 0;
     margin-left: 24px;
   }
+
   .footer-modal-input {
     margin-left: 0 auto;
-    width: 264px;
+    width: 100%;
   }
 
   /* --------------------------PORTFOLIO--------------------------------- */
