@@ -149,7 +149,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -291,9 +291,7 @@ img {
 
 .mob-menu-contacts {
 }
-/* .mob-menu-contacts-list:not(:last-child) {
-  margin-bottom: 40px;
-} */
+
 .mob-menu-telephon {
   font-weight: 600;
   font-size: 36px;
@@ -321,7 +319,7 @@ img {
   display: flex;
 
   justify-content: flex-start;
-  gap: 56px;
+  gap: 24px;
 }
 .mob-soc-item {
   width: 40px;
@@ -383,6 +381,8 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--banner-color);
+  max-width: 320px;
+
 }
 
 .slogan-button {
@@ -949,6 +949,7 @@ img {
   margin-right: 0 auto; */
 }
 .footer-text {
+  margin-top: 16px;
   display: block;
   text-align: start;
   margin-left: auto;
@@ -1021,6 +1022,11 @@ img {
 .portfolio {
   padding-top: 48px;
   padding-bottom: 48px;
+}
+
+.portfolio > .container {
+  max-width: 426px;
+  width: 100%;
 }
 .potrfolio-button-list {
   display: flex;

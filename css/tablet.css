@@ -229,7 +229,10 @@
   .wrap {
     display: flex;
   }
-
+.footer-logo {
+  display:flex;
+  justify-content: flex-start;
+}
   .footer-social-media-title {
     margin: 0;
     display: flex;
@@ -283,4 +286,9 @@
     padding-top: 64px;
     padding-bottom: 96px;
   }
+
+  .portfolio > .container {
+  max-width: 742px;
+  width: 100%;
+}
 }
